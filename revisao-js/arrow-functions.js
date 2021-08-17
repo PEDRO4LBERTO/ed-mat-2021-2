@@ -1,3 +1,4 @@
+
 // Função tradicional com 1 parâmetro e
 // 1 linha no corpo, com return
 function quadrado(x) {
