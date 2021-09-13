@@ -39,7 +39,10 @@ function bubbleSort(vetor) {
 //let nums = [99, 88, 77, 66, 55, 44, 33, 22, 11, 0]
 
 //Melhor caso
-let nums = [0, 11, 22, 33, 44, 55, 66, 77, 88, 99]
+let nums = [18, 17, 19, 17, 18, 18, 20, 18, 18, 18, 19, 18, 21, 18, 20, 
+    18, 20, 18, 18, 19, 18, 19, 19, 19, 18, 19, 19, 21, 19, 19, 
+    19, 21, 17, 19, 19, 18, 19, 19, 18, 20, 20, 18, 20, 18, 20, 
+    20, 19, 19, 21, 18]
 
 bubbleSort(nums)
 console.log(nums)
@@ -47,11 +50,11 @@ console.log({pass, comps, trocas})
 
 /******************************************************************************* */
 
-import { nomes } from './data/nomes-desord.mjs'
+/*import { nomes } from './data/nomes-desord.mjs'
 
 console.time('tempo de ordenação')
 bubbleSort(nomes)
 console.timeEnd('tempo de ordenação')
 
 console.log(nomes)
-console.log({pass, comps, trocas})
+console.log({pass, comps, trocas})   */
