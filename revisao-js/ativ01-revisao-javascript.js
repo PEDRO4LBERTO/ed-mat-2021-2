@@ -24,64 +24,64 @@
 let estadosNe = []
 
 let estado1 = {
-   nome: 'Sergipe',
-   sigla: 'SE',
+   nome: 'Sergipe' ,
+   sigla: 'SE' ,
    area: 21915.08,
    populacao: 2278308
 }
 
 let estado2 = {
-   nome: 'Alagoas',
-   sigla: 'AL',
+   nome: 'Alagoas' ,
+   sigla: 'AL' ,
    area: 27848.14,
    populacao: 3322820
 }
 
 let estado3 = {
-   nome: 'Rio Grande do Norte',
-   sigla: 'RN',
+   nome: 'Rio Grande do Norte' ,
+   sigla: 'RN' ,
    area: 52811.05,
    populacao: 3479010
 }
 
 let estado4 = {
-   nome: 'Paraíba',
-   sigla: 'PB',
+   nome: 'Paraíba' ,
+   sigla: 'PB' ,
    area: 56469.78,
    populacao: 3996496
 }
 
 let estado5 = {
-   nome: 'Pernambuco',
-   sigla: 'PE',
+   nome: 'Pernambuco' ,
+   sigla: 'PE' ,
    area: 98148.32,
    populacao: 9496294
 }
 
 let estado6 = {
-   nome: 'Ceará',
-   sigla: 'CE',
+   nome: 'Ceará' ,
+   sigla: 'CE' ,
    area: 148920.47,
    populacao: 9075649
 }
 
 let estado7 = {
-   nome: 'Piauí',
-   sigla: 'PI',
+   nome: 'Piauí' ,
+   sigla: 'PI' ,
    area: 251577.74,
    populacao: 3264531
 }
 
 let estado8 = {
-   nome: 'Maranhão',
-   sigla: 'MA',
+   nome: 'Maranhão' ,
+   sigla: 'MA' ,
    area: 331937.45,
    populacao: 7035055
 }
 
 let estado9 = {
-   nome: 'Bahia',
-   sigla: 'BA',
+   nome: 'Bahia' ,
+   sigla: 'BA' ,
    area: 564733.18,
    populacao: 14812617
 }
@@ -98,6 +98,8 @@ estadosNe.push(estado6)
 estadosNe.push(estado7)
 estadosNe.push(estado8)
 estadosNe.push(estado9)
+
+console.log(estadosNe)
 
 /*
    2) Escreva uma arrow function que receba dois parâmetros, área e população, e
